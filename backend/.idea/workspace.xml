@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f71007-a962-4e8a-9018-5b1a23775043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/orders/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersNoFound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/orders/ordersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,11 +50,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584552946453</updated>
-      <workItem from="1584552952815" duration="4516000" />
+      <workItem from="1584552952815" duration="4939000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="251" y="137" key="FileChooserDialogImpl" timestamp="1584560921394">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="251" y="137" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584560921394" />
   </component>
 </project>
