@@ -1,0 +1,6 @@
+{
+    "npm.runSilent": true,
+    "npm.enableScriptExplorer": true,
+    "npm.enableRunFromFolder": true,
+    "typescript.disableAutomaticTypeAcquisition": true
+}

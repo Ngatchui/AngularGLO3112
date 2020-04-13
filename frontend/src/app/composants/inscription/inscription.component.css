@@ -2,21 +2,17 @@
 .container{
   display: flex;
   justify-content: center;
-  margin-top: 210px;
+  margin-top: 135px;
 }
 
-.seConnecterdiv{
+.inscriptiondiv{
   background-color: aqua;
   border-radius: 7px;
 }
 
-.seConnecter{
-  margin: 8px 8px 8px 97px;
+.inscription{
+  margin: 8px 8px 8px 133px;
   cursor: pointer;
-}
-
-.nomMotPasse{
-  /*margin-left: 80px;*/
 }
 
 .instagram{

@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584552946453</updated>
       <workItem from="1584552952815" duration="4939000" />
+      <workItem from="1584729440862" duration="1267000" />
     </task>
     <servers />
   </component>
@@ -58,9 +59,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="251" y="137" key="FileChooserDialogImpl" timestamp="1584560921394">
+    <state x="251" y="137" key="FileChooserDialogImpl" timestamp="1584741984366">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="251" y="137" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584560921394" />
+    <state x="251" y="137" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584741984366" />
+    <state x="168" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584740258989">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="168" y="206" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584740258989" />
   </component>
 </project>
