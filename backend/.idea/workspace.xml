@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f71007-a962-4e8a-9018-5b1a23775043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/Orders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersNoFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/ordersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +80,7 @@
       <updated>1584552946453</updated>
       <workItem from="1584552952815" duration="4939000" />
       <workItem from="1584729440862" duration="1267000" />
+      <workItem from="1586813756481" duration="255000" />
     </task>
     <servers />
   </component>
