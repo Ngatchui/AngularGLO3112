@@ -1,0 +1,396 @@
+Je copie le fichier DisqueVirtuel.dat.orig vers DisqueVirtuel.dat 
+
+--------------------------------------------------------------------
+montrer le contenu du disque
+--------------------------------------------------------------------
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ d------        Bonjour size:      48 inode:  4 nlink: 2
+ -------          b.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+ls /doc 
+ d------              . size:      48 inode:  2 nlink: 3
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            tmp size:      48 inode:  5 nlink: 3
+RetVal:3
+
+ls /doc/tmp 
+ d------              . size:      48 inode:  5 nlink: 3
+ d------             .. size:      48 inode:  2 nlink: 3
+ d------         subtmp size:      48 inode:  6 nlink: 2
+RetVal:3
+
+ls /doc/tmp/subtmp 
+ d------              . size:      48 inode:  6 nlink: 2
+ d------             .. size:      48 inode:  5 nlink: 3
+ -------          b.txt size:       0 inode:  8 nlink: 1
+RetVal:3
+
+ls /rep 
+ d------              . size:      32 inode:  3 nlink: 2
+ d------             .. size:      96 inode:  1 nlink: 5
+RetVal:2
+
+ls /Bonjour 
+ d------              . size:      48 inode:  4 nlink: 2
+ d------             .. size:      96 inode:  1 nlink: 5
+ -------    LesAmis.txt size:       0 inode:  9 nlink: 1
+RetVal:3
+
+
+--------------------------------------------------------------------
+Tester les cas ou ls est fait sur un repertoire non-existant ou un fichier ordinaire
+--------------------------------------------------------------------
+
+ls /mauvais 
+RetVal:-1
+
+ls /b.txt 
+RetVal:-1
+
+
+--------------------------------------------------------------------
+Maintenant on verifie que les bons b.txt sont accedes
+--------------------------------------------------------------------
+
+stat /doc/tmp/subtmp/b.txt 
+inode:8 size:0 blocks:0
+RetVal:0
+
+stat /b.txt 
+inode:7 size:66 blocks:1
+RetVal:0
+
+
+--------------------------------------------------------------------
+Tester la commande chmod
+--------------------------------------------------------------------
+
+chmod 760 /b.txt 
+RetVal:0
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ d------        Bonjour size:      48 inode:  4 nlink: 2
+ -rwxrw-          b.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+chmod 430 /b.txt 
+RetVal:0
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ d------        Bonjour size:      48 inode:  4 nlink: 2
+ -r---wx          b.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+chmod 170 /b.txt 
+RetVal:0
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ d------        Bonjour size:      48 inode:  4 nlink: 2
+ ---xrwx          b.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+chmod 610 /Bonjour 
+RetVal:0
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+ ---xrwx          b.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+
+--------------------------------------------------------------------
+Tester la commande hardlink
+--------------------------------------------------------------------
+
+blockfree 
+Nombre de blocs libres: 97
+RetVal:97
+
+hardlink /b.txt /hlnb.txt 
+RetVal:1
+
+hardlink /b.txt /hlnb.txt 
+RetVal:-2
+
+blockfree 
+Nombre de blocs libres: 97
+RetVal:97
+
+ls / 
+ d------              . size:     112 inode:  1 nlink: 5
+ d------             .. size:     112 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+ ---xrwx          b.txt size:      66 inode:  7 nlink: 2
+ ---xrwx       hlnb.txt size:      66 inode:  7 nlink: 2
+RetVal:7
+
+
+--------------------------------------------------------------------
+Tester la commande unlink
+--------------------------------------------------------------------
+
+unlink /b.txt 
+RetVal:1
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 5
+ d------             .. size:      96 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+ ---xrwx       hlnb.txt size:      66 inode:  7 nlink: 1
+RetVal:6
+
+blockfree 
+Nombre de blocs libres: 97
+RetVal:97
+
+unlink /hlnb.txt 
+GLOFS: Relache bloc 30
+GLOFS: Relache i-node 7
+RetVal:1
+
+ls / 
+ d------              . size:      80 inode:  1 nlink: 5
+ d------             .. size:      80 inode:  1 nlink: 5
+ d------            doc size:      48 inode:  2 nlink: 3
+ d------            rep size:      32 inode:  3 nlink: 2
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+RetVal:5
+
+blockfree 
+Nombre de blocs libres: 98
+RetVal:98
+
+unlink /b.txt 
+RetVal:-1
+
+unlink /doc/tmp/b.txt 
+RetVal:-1
+
+unlink /doc/tmp/subtmp/b.txt 
+GLOFS: Relache i-node 8
+RetVal:1
+
+ls /doc/tmp/subtmp 
+ d------              . size:      32 inode:  6 nlink: 2
+ d------             .. size:      48 inode:  5 nlink: 3
+RetVal:2
+
+unlink /doc 
+RetVal:-2
+
+
+--------------------------------------------------------------------
+Tester la commande rmdir
+--------------------------------------------------------------------
+
+blockfree 
+Nombre de blocs libres: 98
+RetVal:98
+
+rmdir /rep 
+GLOFS: Relache bloc 26
+GLOFS: Relache i-node 3
+RetVal:1
+
+ls / 
+ d------              . size:      64 inode:  1 nlink: 4
+ d------             .. size:      64 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+RetVal:4
+
+blockfree 
+Nombre de blocs libres: 99
+RetVal:99
+
+rmdir /doc 
+RetVal:-3
+
+ls / 
+ d------              . size:      64 inode:  1 nlink: 4
+ d------             .. size:      64 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+RetVal:4
+
+rmdir /doc/tmp 
+RetVal:-3
+
+
+--------------------------------------------------------------------
+Tester la création d'un fichier vide
+--------------------------------------------------------------------
+
+create /Doge.wow 
+GLOFS: Saisie i-node 3
+RetVal:1
+
+ls / 
+ d------              . size:      80 inode:  1 nlink: 4
+ d------             .. size:      80 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+ -------       Doge.wow size:       0 inode:  3 nlink: 1
+RetVal:5
+
+create /doc/tmp/new.txt 
+GLOFS: Saisie i-node 7
+RetVal:1
+
+ls / 
+ d------              . size:      80 inode:  1 nlink: 4
+ d------             .. size:      80 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      48 inode:  4 nlink: 2
+ -------       Doge.wow size:       0 inode:  3 nlink: 1
+RetVal:5
+
+ls /doc/tmp 
+ d------              . size:      64 inode:  5 nlink: 3
+ d------             .. size:      48 inode:  2 nlink: 3
+ d------         subtmp size:      32 inode:  6 nlink: 2
+ -------        new.txt size:       0 inode:  7 nlink: 1
+RetVal:4
+
+
+--------------------------------------------------------------------
+Tester la fonction rename sur fichier ordinaire
+--------------------------------------------------------------------
+
+rename /Bonjour/LesAmis.txt /Bonjour/OncleG.txt 
+RetVal:0
+
+ls /Bonjour 
+ drw---x              . size:      48 inode:  4 nlink: 2
+ d------             .. size:      80 inode:  1 nlink: 4
+ -------     OncleG.txt size:       0 inode:  9 nlink: 1
+RetVal:3
+
+rename /Bonjour/OncleG.txt /DansRoot.txt 
+RetVal:0
+
+ls /Bonjour 
+ drw---x              . size:      32 inode:  4 nlink: 2
+ d------             .. size:      96 inode:  1 nlink: 4
+RetVal:2
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 4
+ d------             .. size:      96 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      32 inode:  4 nlink: 2
+ -------       Doge.wow size:       0 inode:  3 nlink: 1
+ -------   DansRoot.txt size:       0 inode:  9 nlink: 1
+RetVal:6
+
+
+--------------------------------------------------------------------
+Tester la création d'un répertoire
+--------------------------------------------------------------------
+
+blockfree 
+Nombre de blocs libres: 99
+RetVal:99
+
+ls /Bonjour 
+ drw---x              . size:      32 inode:  4 nlink: 2
+ d------             .. size:      96 inode:  1 nlink: 4
+RetVal:2
+
+mkdir /Bonjour/newdir 
+GLOFS: Saisie i-node 8
+GLOFS: Saisie bloc 26
+RetVal:1
+
+chmod 440 /Bonjour/newdir 
+RetVal:0
+
+blockfree 
+Nombre de blocs libres: 98
+RetVal:98
+
+ls /Bonjour 
+ drw---x              . size:      48 inode:  4 nlink: 3
+ d------             .. size:      96 inode:  1 nlink: 4
+ dr--r--         newdir size:      32 inode:  8 nlink: 2
+RetVal:3
+
+ls / 
+ d------              . size:      96 inode:  1 nlink: 4
+ d------             .. size:      96 inode:  1 nlink: 4
+ d------            doc size:      48 inode:  2 nlink: 3
+ drw---x        Bonjour size:      48 inode:  4 nlink: 3
+ -------       Doge.wow size:       0 inode:  3 nlink: 1
+ -------   DansRoot.txt size:       0 inode:  9 nlink: 1
+RetVal:6
+
+
+--------------------------------------------------------------------
+Tester la fonction rename sur répertoire
+--------------------------------------------------------------------
+
+ls /Bonjour 
+ drw---x              . size:      48 inode:  4 nlink: 3
+ d------             .. size:      96 inode:  1 nlink: 4
+ dr--r--         newdir size:      32 inode:  8 nlink: 2
+RetVal:3
+
+ls /doc 
+ d------              . size:      48 inode:  2 nlink: 3
+ d------             .. size:      96 inode:  1 nlink: 4
+ d------            tmp size:      64 inode:  5 nlink: 3
+RetVal:3
+
+rename /doc/tmp /Bonjour/tmpmv 
+RetVal:0
+
+ls /Bonjour/tmpmv 
+ d------              . size:      64 inode:  5 nlink: 3
+ drw---x             .. size:      64 inode:  4 nlink: 4
+ d------         subtmp size:      32 inode:  6 nlink: 2
+ -------        new.txt size:       0 inode:  7 nlink: 1
+RetVal:4
+
+ls /doc 
+ d------              . size:      32 inode:  2 nlink: 2
+ d------             .. size:      96 inode:  1 nlink: 4
+RetVal:2
+
+rename /Bonjour/tmpmv /Bonjour/tmpmv2 
+RetVal:0
+
+rename /Bonjour/tmpmv2 /Bonjour/tmpmv3 
+RetVal:0
+
+ls /Bonjour/tmpmv3 
+ d------              . size:      64 inode:  5 nlink: 3
+ drw---x             .. size:      64 inode:  4 nlink: 4
+ d------         subtmp size:      32 inode:  6 nlink: 2
+ -------        new.txt size:       0 inode:  7 nlink: 1
+RetVal:4
