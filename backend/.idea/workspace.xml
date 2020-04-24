@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f71007-a962-4e8a-9018-5b1a23775043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/test/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/Orders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/OrdersNoFound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/ordersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +46,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZJMs6xYaUkWYX4L1xOxS7lAXqE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -80,18 +74,29 @@
       <updated>1584552946453</updated>
       <workItem from="1584552952815" duration="4939000" />
       <workItem from="1584729440862" duration="1267000" />
-      <workItem from="1586813756481" duration="255000" />
+      <workItem from="1586813756481" duration="4375000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1586816285780">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1586816285780" />
     <state x="251" y="137" key="FileChooserDialogImpl" timestamp="1584741984366">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="251" y="137" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584741984366" />
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1586818737160">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1586818737160" />
     <state x="168" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584740258989">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
