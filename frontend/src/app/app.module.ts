@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { ConnexionComponent } from './composants/connexion/connexion.component';
 import { EnteteDePageComponent } from './composants/entete-de-page/entete-de-page.component';
 import { PiedDePageComponent } from './composants/pied-de-page/pied-de-page.component';
-import {ReactiveFormsModule} from "@angular/forms";
 import { InscriptionComponent } from './composants/inscription/inscription.component';
 import { AccueilComponent } from './composants/accueil/accueil.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -25,6 +26,7 @@ import { AccueilComponent } from './composants/accueil/accueil.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
