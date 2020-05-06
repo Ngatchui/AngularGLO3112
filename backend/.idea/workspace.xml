@@ -1,51 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5f71007-a962-4e8a-9018-5b1a23775043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoBackendMysql/src/test/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplicationTests.java" afterDir="false" />
+    <list default="true" id="f94c275a-14af-47f6-be97-260e8cc3d6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/commandesSQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/.idea/TP3-20183ACodes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/DisqueVirtuel copie.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/DisqueVirtuel.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/MesResultats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/RapportTempsFinalTP3_Sandrine_Diffo.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/TestEtudiant.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/UFS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/UFS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/UFS.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/disque.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/disque.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/disque.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/main_ufs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/main_ufs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/resultattp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/ufs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3-20183ACodes/ufs_complet" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/src/main/java/com/persoExemple/demoBackendMysql/domain/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoBackendMysql/src/test/java/com/persoExemple/demoBackendMysql/DemoBackendMysqlApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/.idea/tp3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/DisqueVirtuel.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/DisqueVirtuel.dat.orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/MesResultats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/TestEtudiant.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/UFS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/UFS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/UFS.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/disque.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/disque.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/disque.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/glofs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/glofs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/main_ufs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/main_ufs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/ufs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp3/ufs_complet" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1ZJMs6xYaUkWYX4L1xOxS7lAXqE" />
+  <component name="ProjectId" id="1bXiEJegVBnAV7vvTsH9ww0veob" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -56,25 +126,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5f71007-a962-4e8a-9018-5b1a23775043" name="Default Changelist" comment="" />
-      <created>1584552946453</created>
+      <changelist id="f94c275a-14af-47f6-be97-260e8cc3d6de" name="Default Changelist" comment="" />
+      <created>1588784797025</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584552946453</updated>
-      <workItem from="1584552952815" duration="4939000" />
-      <workItem from="1584729440862" duration="1267000" />
-      <workItem from="1586813756481" duration="4375000" />
+      <updated>1588784797025</updated>
+      <workItem from="1588784834128" duration="7176000" />
     </task>
     <servers />
   </component>
@@ -85,21 +165,69 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1586816285780">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2632" y="179" key="#Inspections" timestamp="1588799200842">
+      <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1586816285780" />
-    <state x="251" y="137" key="FileChooserDialogImpl" timestamp="1584741984366">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2632" y="179" key="#Inspections/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588799200842" />
+    <state x="2300" y="94" width="979" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588804293980">
+      <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="251" y="137" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584741984366" />
-    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1586818737160">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2300" y="94" width="979" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588804293980" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588801347741">
+      <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1586818737160" />
-    <state x="168" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584740258989">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588801347741" />
+    <state width="916" height="351" key="GridCell.Tab.0.bottom" timestamp="1588805280842">
+      <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state x="168" y="206" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1584740258989" />
+    <state width="916" height="351" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280842" />
+    <state width="916" height="351" key="GridCell.Tab.0.center" timestamp="1588805280841">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280841" />
+    <state width="916" height="351" key="GridCell.Tab.0.left" timestamp="1588805280841">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280841" />
+    <state width="916" height="351" key="GridCell.Tab.0.right" timestamp="1588805280842">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280842" />
+    <state width="916" height="351" key="GridCell.Tab.1.bottom" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.1.center" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.1.left" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.1.right" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.2.bottom" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.2.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.2.center" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.2.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.2.left" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.2.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state width="916" height="351" key="GridCell.Tab.2.right" timestamp="1588805280843">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="351" key="GridCell.Tab.2.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588805280843" />
+    <state x="2256" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1588784866175">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2256" y="345" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1588784866175" />
   </component>
 </project>
