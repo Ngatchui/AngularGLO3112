@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33578235-c243-461f-8d8c-883726eb1cdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/angularGlo3112_BD.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/commandesSQL.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/accueil/accueil.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/connexion/connexion.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/entete-de-page/entete-de-page.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/entete-de-page/entete-de-page.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/entete-de-page/entete-de-page.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/entete-de-page/entete-de-page.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/inscription/inscription.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/pied-de-page/pied-de-page.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/pied-de-page/pied-de-page.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/pied-de-page/pied-de-page.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/composants/pied-de-page/pied-de-page.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/models/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/alerte/alert-service.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/authentification/authentification-service.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/inscription/inscription.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/app/services/inscription/inscription.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/tslint.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592318594632</updated>
-      <workItem from="1592318633589" duration="2577000" />
+      <workItem from="1592318633589" duration="3142000" />
     </task>
     <servers />
   </component>
@@ -149,38 +85,38 @@
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
     <state x="2765" y="198" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319489645" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1592319698670">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698670" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1592319698670">
+    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698670" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.1.bottom" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.1.center" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.1.left" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1592319698671">
+    <state width="1877" height="309" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
+    <state width="1877" height="309" key="GridCell.Tab.1.right" timestamp="1592324761989">
       <screen x="1600" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592319698671" />
+    <state width="1877" height="309" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1040@1600.0.1920.1040" timestamp="1592324761989" />
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1592318647061">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
