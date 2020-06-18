@@ -1,0 +1,12 @@
+.footer {
+    display: inline-flex;
+}
+
+.partieAvecProfil {
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.barreDeRecherche {
+    margin-left: 5px;
+}
