@@ -10,32 +10,29 @@ import java.util.*;
 @Service
 public class UserServiceImplementation implements UserServiceRepository {
 
+    UserRepository userRepository;
+
     private static Map<Long, User> userMap = new HashMap<>();
-
-    private UserRepository userRepository;
-
-    public UserServiceImplementation(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
-
 
     @Override
     public void createUser(User user) {
-
+        userMap.put(user.getId(), user);
     }
 
     @Override
     public void updateUser(Long id, User user) {
-
+        userMap.remove(id);
+        user.setId(id);
+        userMap.put(id,user);
     }
 
     @Override
     public void deleteUser(Long id) {
-
+        userMap.remove(id);
     }
 
     @Override
-    public Collection<User> getUsers() {
-        return null;
+    public List<User> getUsers() {
+        return userRepository.findAll();
     }
 }
