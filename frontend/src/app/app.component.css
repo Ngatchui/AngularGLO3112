@@ -7,6 +7,10 @@
     margin-left: 300px;
 }
 
+.navbar-nav {
+    margin: 0% 20% 0% 20%;
+}
+
 .barreDeRecherche {
     margin-left: 5px;
 }

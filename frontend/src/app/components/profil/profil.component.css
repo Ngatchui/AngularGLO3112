@@ -1,0 +1,9 @@
+.nav-profil {
+    display: flex;
+    margin-top: 0.5em;
+}
+
+.goToProfil {
+    cursor: pointer;
+    margin-left: 0.5em;
+}
