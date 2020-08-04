@@ -8,7 +8,6 @@ import { User } from 'src/app/models/user';
 })
 export class LoginComponent implements OnInit {
 
-  
   user: User = new User();
   submitted = false;
 
@@ -17,7 +16,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit(){
-    
+  onSubmit() {
   }
 }

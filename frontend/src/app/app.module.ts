@@ -15,6 +15,8 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { ParametersComponent } from './components/parameters/parameters.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReceptionComponent } from './components/reception/reception.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { ReceptionComponent } from './components/reception/reception.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
