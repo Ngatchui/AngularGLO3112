@@ -16,6 +16,9 @@ import { ParametersComponent } from './components/parameters/parameters.componen
 import { HomeComponent } from './components/home/home.component';
 import { ReceptionComponent } from './components/reception/reception.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LovepublicationComponent } from './components/lovepublication/lovepublication.component';
+import { ImagesuserComponent } from './components/imagesuser/imagesuser.component';
+import { SentmessageComponent } from './components/sentmessage/sentmessage.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { HttpClientModule } from '@angular/common/http';
     RegistrationComponent,
     ParametersComponent,
     HomeComponent,
-    ReceptionComponent
+    ReceptionComponent,
+    LovepublicationComponent,
+    ImagesuserComponent,
+    SentmessageComponent
   ],
   imports: [
     BrowserModule,

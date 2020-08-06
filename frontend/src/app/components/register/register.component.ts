@@ -17,17 +17,18 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  save() {
+  /* save() {
     this.registerService.registerUser(this.user)
       .subscribe(data => console.log(data), error => console.log(error));
-    this.user = new User();
+    this.user = new User(); */
     /* this.gotoList();
  */
-  }
+ /*  } */
 
   onSubmit(){
     this.submitted = true;
-    this.save();
+   /*  this.save(); */
+    this.router.navigate(['/login']);
   }
 
   /* gotoList() {
